@@ -48,6 +48,10 @@ def run_assistant_prac():
         elif 'open website' in command:
             speak('Opening Cousin site.')
             webbrowser.open('https://khauzen2.github.io/myWebPortfolio')
+
+        elif 'open tabby website' in command:
+            speak('Opening Nthabi website')
+            webbrowser.open('https://nthabiisportfolio.netlify.app')
         
         elif 'orange farm' in command:
             speak('Great! So, you want to know about Orange Far? that is good. Orange Farm is a newly developing township located south of Johannesburg, in Gauteng, South Africa. To find out more about Orange Farm, feel free to ask me anything related to it.')
@@ -64,10 +68,16 @@ def run_assistant_prac():
             speak('Okay cool...just asking...anything else?')
 
         elif 'zulu' in command:
-            speak('Sawubona baba...kunjani?')
+            speak('Sawubona lapho...kunjani?')
 
         elif 'khuluma' in command:    
             speak('Ngiyaphila nami, yize ngiwumshini nje...mina igama lami ngingu Nomusa...ngingakusiza kanjani namuhla?')
+
+        elif 'sotho' in command:
+            speak('Dumela hle...nka ho thusa ka eng')
+
+        elif 'buwa' in command:
+            speak('ekabe obatla re buwe sesotho...re ka buwa hle...nna lebitso laka ke Makasana, ke thabela ho buwa le wena ka mohau...')
 
         elif 'cousin' in command:
             speak('Khaolani Michael Mavimbela, also known as Khauzen, is a well-known and widely understood person by the communities he often visits. Always making jokes to lighten the everyday stress in his surroundings, he knows just how to break the ice. For more about Khauzen, please visit Orange Farm.')
@@ -87,6 +97,9 @@ def run_assistant_prac():
         elif 'shadow' in command:
             speak('Mthunzi Muziwezinsizwa Mavimbela, also known as Shadow, is a food supply chain expert who provides his local community with a comprehensive food supply that meets the needs of everyone in the area. His motivation stems from the fact that many people struggle to find food, which can disrupt their peace of mind and rest for the day. For more about Shadow, please visit Orange Farm.')
         
+        elif 'nthabi' in command:
+            speak('Ntha bie seng, Te bar tso, Moyarbar, is a passionate Front-End developer with a love for learning, she brings a touch of charm and excellence to every line of code she writes in the ever-evolving world of IT.')
+
         elif 'may we please talk' in command or 'can we talk' in command:
             speak('Yes, please! Gladly! So, what would you like us to talk about?')
         
